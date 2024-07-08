@@ -60,14 +60,14 @@ const Main=()=>{
                 
                 <div className="main-bottom">
                     <div className="search-box">
-                        <input onChange={(e)=>setInput(e.target.value)}value={input} type="text" placeholder="Enter a prompt here" />
+                        <input onChange={(e)=>setInput(e.target.value)}value={input} type="text" placeholder="Enter a prompt" />
                         <div>
                             {/* <img src={assets.gallery_icon} alt="" />
                             <img src={assets.mic_icon} alt="" /> */}
                             <img onClick={()=>onSent()}src={assets.send_icon} alt="" />
                         </div>
                     </div>
-                    <p className="bottom-info">Given AI Model might generate inaccurate information including about people, so double check its responses. Your privacy and our Apps</p>
+                    <p className="bottom-info">Given AI Model might generate inaccurate information</p>
                 </div>
             </div>
         </div>
